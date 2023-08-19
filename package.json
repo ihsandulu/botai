@@ -1,0 +1,28 @@
+{
+  "name": "botai",
+  "version": "1.0.0",
+  "description": "bot dengan openai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihsandulu/botai.git"
+  },
+  "keywords": [
+    "botai"
+  ],
+  "author": "ihsandulu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ihsandulu/botai/issues"
+  },
+  "homepage": "https://github.com/ihsandulu/botai#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.0.1",
+    "socket.io": "^4.7.2"
+  }
+}
