@@ -32,7 +32,7 @@ io.on('connection', function(socket){
 
 	socket.on('prompt',function(data){
 		console.log(data);
-		const response = openai.createCompletion({
+		const response = openai.completions.create({
 			model		: "text-davinci-003",
 			prompt		: data.text,
 			temperature	: 0.1,
